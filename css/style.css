@@ -1,0 +1,382 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/**/
+
+
+/* Header Section CSS Start*/
+.header-section{
+	background: url(../img/background.jpg) center top no-repeat;
+	width: 100%;
+	height: 650px;
+	background-size: cover;
+}
+.header-section .bg-light {
+	background-color: transparent !important;
+	padding: 25px 0px;
+}
+
+.header-section .navbar-nav .active > .nav-link {
+	color: #fff;
+	background: url(../img/Prostokąt\ 2\ kopia\ 2.png) center bottom no-repeat !important;
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+	color: #fff;
+	background: url(../img/menu_hover.png) center bottom no-repeat;
+}
+.header-section .navbar-dark .navbar-nav .nav-link:hover {
+	color: #fff;
+	background: url(../img/Prostokąt\ 2\ kopia\ 2.png) center bottom no-repeat;
+}
+.nav-link {
+	display: block;
+	padding: .5rem 1rem;
+	font-size: 16px;
+}
+
+
+/*Banner Start*/
+.banner{
+	width: 100%;
+	padding: 40px 0px;
+}
+.banner .banner-inner{
+	width: 100%;
+	padding: 40px 0px 60px 0px;
+	margin-top: 120px;
+}
+.banner-inner h5{
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 500px;
+	color: #0099cc;
+	text-transform: uppercase;
+
+}
+.banner-inner h2{
+	font-size: 42px;
+	line-height: 48px;
+	font-weight: 500px;
+	color: #fff;
+}
+.banner-inner p{
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400px;
+	color: #666;
+}
+.banner .banner-image{
+	margin-top: 91px;
+}
+.btn-double{
+	width: 100%;
+	padding: 25px 0px 0px 0px;
+}
+.btn-double .btn-info{
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 12px 35px;
+	border-radius: 3px;
+	color: #fff;
+	background: #0099cc;
+	border: 1px solid #0099cc;
+	transition: 1s ease-in;
+}
+.btn-double .btn-info:hover{
+	color: #0099cc;
+	background: transparent;
+	border: 1px solid #0099cc;
+	transition: 1s ease-in;
+}
+.btn-double .btn-primary{
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 12px 35px;
+	margin-left: 15px;
+	border-radius: 3px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	transition: 1s ease-in;
+}
+.btn-double .btn-primary:hover{
+	background: #0099cc;
+	border: 1px solid #0099cc;
+	transition: 1s ease-in;
+}
+
+
+.banner .banner-image{
+	margin-left: 60px;
+}
+
+/* Feature Section Code Start*/
+#feature {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+#feature .title {
+    margin: 50px auto;
+    width: 100%;
+    text-align: center;
+}
+
+#feature .title h4 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#feature .title h2 {
+    font-weight: 600;
+}
+
+#feature .feature-box {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+#feature .feature-box .circle {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+#feature .feature-box h4 {
+    font-size: 1.3rem;
+    margin: 20px 0px;
+}
+
+
+
+#amazing-feature{
+	border-top: 1px solid grey;
+}
+
+
+
+#about-short{
+	background: #ededed;
+}
+
+#testimonials{
+	background: url(../img/Prostokąt\ 4.png) center top no-repeat;
+	background-size: cover;
+}
+#testimonials .owl-carousel .item p{
+	font-size: 18px;
+	color: #fff;
+	font-weight: lighter;
+	
+}
+#testimonials .owl-carousel .item{
+	padding: 50px 25px 0px 0px;
+}
+#testimonials .owl-carousel .item .margin-test{
+	margin-bottom: 80px;
+}
+#testimonials .owl-carousel .item h5{
+	font-size: 15px;
+	color: #fff;
+	font-weight: 500;
+	line-height: 26px;
+}
+#testimonials .owl-carousel .item .media{
+	padding: 25px 0px 0px;
+}
+#testimonials .owl-carousel .item .media img{
+	width: 60px;
+	margin-left: 10px;
+}
+#testimonials .owl-carousel .item .media .media-body{
+	margin-left: -200px;
+}
+#testimonials .owl-carousel .item .media .media-body .jhon{
+	margin-left: -162px;
+}
+#testimonials .owl-carousel .item .media .media-body .dean{
+	margin-left: -76px;
+}
+#testimonials .owl-carousel .item .media .media-body p{
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+
+}
+
+#testimonials-footer{
+	background: #000;
+	padding: 70px 0px;
+	
+}
+#testimonials-footer p{
+	font-size: 30px;
+	color: #fff;
+}
+
+
+#pricing .pricing-table .card .card-header1{
+		padding: .75rem 1.25rem !important;
+		margin-bottom: 0 !important;
+		border-bottom: 1px solid rgba(0,0,0,.125) !important;
+	
+}
+#pricing .pricing-table .card .card-header2{
+	padding: .75rem 1.25rem !important;
+	margin-bottom: 0 !important;
+	border-bottom: 1px solid rgba(0,0,0,.125) !important;
+
+}
+#pricing .pricing-table .card .card-header1:hover{
+	padding: .75rem 1.25rem !important;
+	
+	color: #008ed6;
+}
+#pricing .pricing-table .card .card-header2:hover{
+	padding: .75rem 1.25rem !important;
+	margin-bottom: 0 !important;
+	border-bottom: 1px solid rgba(0,0,0,.125) !important;
+	background: #008ed6;
+	color:#fff;
+}
+
+#pricing .pricing-table .card .btn-price {
+	color: #008ed6;
+	background-color: #fff;
+	border-color: #e0e0e0;
+	padding: .5rem 1rem;
+	font-size: 1.25rem;
+	line-height: 1.5;
+	border-radius: .3rem;
+}
+#pricing .pricing-table .card .btn-price:hover {
+	color: #fff;
+	background-color: #008ed6;
+	border-color: #e0e0e0;
+	padding: .5rem 1rem;
+	font-size: 1.25rem;
+	line-height: 1.5;
+	border-radius: .3rem;
+	transition: 0.8s;
+}
+
+/* CONTACT SECTION*/
+#contact{
+	background: #ededed;
+	width: 100%;
+	
+}
+#contact h5{
+	color: #008ed6;
+	font-weight: 505;
+	font-size: 16px;
+}
+#contact h2{
+	font-size: 37px;
+	font-weight: 501;
+
+}
+#contact .address {
+	font-size: 50px ;
+	color: #008ed6 ;
+}
+#contact .address1 {
+	font-size: 38px ;
+	color: #008ed6;
+	margin-top:10px;
+}
+#contact .address2 {
+	font-size: 35px ;
+	color: #008ed6;
+	margin-top: 12px;
+}
+#contact .address-text{
+	padding-bottom: 30px;
+
+}
+#contact .address-text{
+	color: #000000;
+}
+#contact .main-form{
+	width: 100%;
+	background-color: #000000;
+	padding: 40px 50px 15px 50px;
+	margin-top: 10px;
+	margin-bottom: -65px;
+}
+#contact .main-form .form-control {
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff0;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#contact .main-form textarea.form-control {
+	overflow: auto;
+	resize: vertical;
+	height: 146px !important;
+}
+.map{
+	width: 100%;
+}
+
+/*MAIN FOOTER CSS START*/
+.main-footer{
+	background: #000000;
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+.main-footer .social-icon{
+	
+}
+.main-footer .social-icon ul{
+	
+}
+.main-footer .social-icon ul li{
+	list-style: none;
+	display: inline-block;
+}
+.main-footer .social-icon ul li a{
+	font-size: 22px;
+	margin: 0px 12px;
+	color:#333333;
+}
+.main-footer .social-icon ul li a:hover{
+	color: #0099cc;
+}
+.main-footer .copyright{
+	font-size: 12px;
+	font-weight: 600;
+	color: #333333;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
